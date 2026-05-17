@@ -1,0 +1,15 @@
+C:\Users\Надежда\source\repos\Lab_10\Lab_10\obj\Debug\net8.0\Lab_10.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Надежда\source\repos\Lab_10\Lab_10\obj\Debug\net8.0\Lab_10.AssemblyInfoInputs.cache
+C:\Users\Надежда\source\repos\Lab_10\Lab_10\obj\Debug\net8.0\Lab_10.AssemblyInfo.cs
+C:\Users\Надежда\source\repos\Lab_10\Lab_10\obj\Debug\net8.0\Lab_10.csproj.CoreCompileInputs.cache
+C:\Users\Надежда\source\repos\Lab_10\Lab_10\obj\Debug\net8.0\Lab_10.sourcelink.json
+C:\Users\Надежда\source\repos\Lab_10\Lab_10\bin\Debug\net8.0\Lab_10.exe
+C:\Users\Надежда\source\repos\Lab_10\Lab_10\bin\Debug\net8.0\Lab_10.deps.json
+C:\Users\Надежда\source\repos\Lab_10\Lab_10\bin\Debug\net8.0\Lab_10.runtimeconfig.json
+C:\Users\Надежда\source\repos\Lab_10\Lab_10\bin\Debug\net8.0\Lab_10.dll
+C:\Users\Надежда\source\repos\Lab_10\Lab_10\bin\Debug\net8.0\Lab_10.pdb
+C:\Users\Надежда\source\repos\Lab_10\Lab_10\obj\Debug\net8.0\Lab_10.dll
+C:\Users\Надежда\source\repos\Lab_10\Lab_10\obj\Debug\net8.0\refint\Lab_10.dll
+C:\Users\Надежда\source\repos\Lab_10\Lab_10\obj\Debug\net8.0\Lab_10.pdb
+C:\Users\Надежда\source\repos\Lab_10\Lab_10\obj\Debug\net8.0\Lab_10.genruntimeconfig.cache
+C:\Users\Надежда\source\repos\Lab_10\Lab_10\obj\Debug\net8.0\ref\Lab_10.dll
