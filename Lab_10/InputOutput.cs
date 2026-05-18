@@ -42,10 +42,8 @@ namespace Компилятор
         public static TextPosition PositionNow = new TextPosition(0, 0);
         public static List<Err> ErrList { get; set; } = new List<Err>();
 
-        // Изменено на TextReader? для совместимости и устранения CS8618
         public static TextReader? File { get; set; }
 
-        // Ручная таблица текстовых описаний ошибок
         private static readonly Dictionary<byte, string> ErrorMessages = new()
         {
             { 1, "Недопустимый символ в исходном коде." },
@@ -54,9 +52,6 @@ namespace Компилятор
             { 4, "Число константы вышло за допустимые пределы." }
         };
 
-        /// <summary>
-        /// Инициализация модуля перед началом компиляции.
-        /// </summary>
         public static void Init(TextReader streamReader)
         {
             File = streamReader ?? throw new ArgumentNullException(nameof(streamReader));
