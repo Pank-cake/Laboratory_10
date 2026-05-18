@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.IO;
 
 namespace Компилятор
@@ -7,12 +7,10 @@ namespace Компилятор
     {
         public void RunAllTests()
         {
-            Console.WriteLine("=== ЗАПУСК ТЕСТИРОВАНИЯ НА ОСНОВЕ ПРЕПОДАВАТЕЛЬСКОГО ШАБЛОНА ===\n");
 
             TestSuccessfulCodeReading();
             TestErrorReportingAndPositioning();
 
-            Console.WriteLine("\n=== ТЕСТИРОВАНИЕ ЗАВЕРШЕНО ===");
         }
 
         private void TestSuccessfulCodeReading()
