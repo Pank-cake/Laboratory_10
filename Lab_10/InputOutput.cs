@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.IO;
 
@@ -48,7 +48,7 @@ namespace Компилятор
         // Ручная таблица текстовых описаний ошибок
         private static readonly Dictionary<byte, string> ErrorMessages = new()
         {
-            { 1, "Недопустимый символ в исходном коде Паскаля." },
+            { 1, "Недопустимый символ в исходном коде." },
             { 2, "Незавершенный строковый литерал." },
             { 3, "Ожидалось имя переменной или ключевое слово." },
             { 4, "Число константы вышло за допустимые пределы." }
@@ -72,9 +72,6 @@ namespace Компилятор
             }
         }
 
-        /// <summary>
-        /// Функция nextch — модуль ввода-вывода.
-        /// </summary>
         public static void NextCh()
         {
             if (_isEof)
@@ -117,7 +114,6 @@ namespace Компилятор
 
         private static void ReadNextLine()
         {
-            // Исправленное чтение через базовый TextReader
             string? nextLine = File?.ReadLine();
 
             if (nextLine != null)
